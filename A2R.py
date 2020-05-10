@@ -60,7 +60,7 @@ def ArabicToRoman(arabic):
 		arabic = arabic % 10
 
 	if arabic >= 1:
-		if dig == 1:
+		if dig == arabic:
 			roman = roman + 'I'
 		if dig == 2:
 			roman = roman + 'II'
