@@ -2,8 +2,10 @@ def ArabicToRoman(arabic):
 	try:
 		if arabic > 3999 or arabic < 0:
 			raise Exception("wrong number")
+			return -1
 	except:
 		raise Exception("wrong type")
+		return -2
 	roman = ""
 	if arabic >= 1000:
 		dig = arabic // 1000
