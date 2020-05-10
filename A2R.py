@@ -1,7 +1,7 @@
 def ArabicToRoman(arabic):
 	if type(arabic) is not type(100):
 		return -2
-	if arabic > 3999 or arabic < 0:
+	if arabic > 3999 or arabic <= 0:
 		return -1
 	
 	roman = ""
