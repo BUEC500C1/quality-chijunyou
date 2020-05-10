@@ -2,7 +2,7 @@ from A2R import ArabicToRoman
 import pytest
 def testcase():
 	assert ArabicToRoman(1) == "I"
-	assert ArabicToRoman(7) == ""
+	assert ArabicToRoman(7) == "VII"
 	assert ArabicToRoman(10) == "X"
 	assert ArabicToRoman(12) == "XII"
 	assert ArabicToRoman(19) == "XIX"
