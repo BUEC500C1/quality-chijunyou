@@ -32,7 +32,7 @@ def ArabicToRoman(arabic):
 		if dig == 7:
 			roman = roman + 'DCC'
 		if dig == 8:
-			roman = roman + 'CCM'
+			roman = roman + 'DCCC'
 		if dig == 9:
 			roman = roman + 'CM'
 		arabic = arabic % 100
@@ -54,7 +54,7 @@ def ArabicToRoman(arabic):
 		if dig == 7:
 			roman = roman + 'LXX'
 		if dig == 8:
-			roman = roman + 'XXC'
+			roman = roman + 'LXXX'
 		if dig == 9:
 			roman = roman + 'XC'
 		arabic = arabic % 10
@@ -76,7 +76,7 @@ def ArabicToRoman(arabic):
 		if dig == 7:
 			roman = roman + 'VII'
 		if dig == 8:
-			roman = roman + 'IIX'
+			roman = roman + 'VIII'
 		if dig == 9:
 			roman = roman + 'IX'
 
